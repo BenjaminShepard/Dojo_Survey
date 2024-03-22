@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- this is where the script will go -->
+</head>
+<body>
+    <div class="header flex">
+        <h1 id="dojonary">Dojonary</h1>
+        <input type="text" name="search_bar" placeholder="Search" class="search_bar">
+        <button class="loginbtn" onclick="logout(this)">Login</button>
+    </div>
+    <div class="container flex">
+        <div class="left-col flex">
+            <div class="ninja-1 flex">
+                <div class="nin-head1 flex">
+                    <h1>ninja</h1>
+                    <h2 class="noun">noun</h2>
+                    <h2>Plural: ninjas</h2>
+                    <button class="likesbtn" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="nin-def1 flex">
+                    <h2 class="a-prac">A practionioner skilled in the <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu"> ninjutsu</a></h2>
+                </div>
+            </div>
+            <div class="ninja-2 flex">
+                <div class="nin-head2 flex">
+                    <h1>ninja</h1>
+                    <h2 class="noun">noun</h2>
+                    <h2>Plural: ninjas</h2>
+                    <button class="likesbtn" onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="nin-def2 flex">
+                    <h2 class="a-prac">A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen#:~:text=The%20term%20Zen%20is%20derived,insight%20(%E8%A6%8B%E6%80%A7%2C%20Ch.">zen</a>-like focus</h2>
+                </div>
+            </div>
+        </div>
+        <div class="right-col flex">
+            <div class="dojonary flex">
+                <div class="dojonary-def">
+                    <h2 class="dojonary-is">Dojonary is <br> defined by YOU</h2>
+                    <button class="add-def" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

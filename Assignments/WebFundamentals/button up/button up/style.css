@@ -1,0 +1,27 @@
+* {
+    font-family: sans-serif;
+}
+
+.search{
+    color: rgb(3, 196, 196);
+    width: 130px;
+}
+
+.plus {
+    height: 35px;;
+    width: 35px;;
+    border: 2px;
+    border-radius: 50%;
+    background-color: rgb(3, 196, 196);
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.createaccount {
+    color: white;
+    background-color: rgb(4, 133, 255);
+    height: 35px;
+    width: 160px;
+    font-size: 17px;
+}

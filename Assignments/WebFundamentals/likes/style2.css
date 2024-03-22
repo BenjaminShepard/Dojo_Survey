@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 950px;
+    height: 700px;
+    margin: 0 auto;
+    /* border-style: dashed;
+    border-width: 2px; */
+    border-color: red;
+}
+
+.header, .yourfeed{
+    background-color: black;
+    width: 90%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.network{
+    margin-left: 2rem;
+    color: white;
+}
+
+.yourfeed{
+    background-color: white;
+    justify-content: center;
+}
+
+.left-col, .right-col{
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: mediumspringgreen; */
+    margin: 15px;
+}
+
+.left-col{
+    width: 30%;
+    height: 520px;
+}
+
+.right-col{
+    width: 70%;
+    height: 520px;
+}
+
+.single{
+    width: 12rem;
+    height: 16rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 0 auto;
+}
+
+img{
+    width: 40%;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+}
+
+.james{
+    margin-left: 2.5rem;
+
+}
+
+a{
+    margin-left: 50px;
+}
+
+.neil{
+    width: 94%;
+    height: 136px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.nichole, .jim{
+    margin-top: 10px;
+}
+
+.neil3, .neil-likes, .likesbtn{
+    width: 90%;
+    height: 40%;
+    /* border-style: dashed;
+    border-width: 2px; */
+    margin-top: 7px;
+    margin-left: 22px;
+}
+
+.neil-likes{
+    justify-content: center;
+}
+
+.likebtn{
+    border-color: aqua;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.name{
+    width: 11rem;
+}
+
+.btn{
+    background-color: orange;
+    width: 69px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.link{
+    display: inline;
+    margin-left: -50px;
+}
+
+.neiltalk{
+    margin-left: 1.5rem;
+}
+

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    width: 950px;
+    height: 890px;
+    border-style: dashed;
+    border-color: red;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-bar{
+width: 100%;
+height: 100px;
+border-style: dashed;
+border-color: chartreuse;
+background-color: black;
+}
+
+
+.nav-links{
+    width: 950px;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+    border-style: dashed;
+    border-color: blue;
+    background-color: black;
+    display: flex;
+}
+
+h1{
+    justify-content: center;
+    margin-top: 28px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    justify-content: center;
+    
+}
+
+ul{
+    padding: 18px;
+    margin-top: 23px;
+}
+
+#btncontain{
+    width: 90px;
+    height: 35px;
+    border-style: dashed;
+    border-color: salmon;
+}
+
+.thisbtn{
+    background-color: #17a2b8;
+    width: 85px;
+    height: 30px;
+    color: white;
+}
+
+.leftcolumn{
+    width: 500px;
+    height: 890px;
+    border-style: dashed;
+    border-color: purple;
+    justify-content: flex-start;
+}
+
+.rightcolumn{
+    width: 334px;
+    height: 890px;
+    border-style: dashed;
+    border-color: yellow;
+    justify-content: flex-end;
+}
+
+.usercard{
+    width: 466px;
+    height: 308px;
+    background-color: aqua;
+    border: 2px black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+}

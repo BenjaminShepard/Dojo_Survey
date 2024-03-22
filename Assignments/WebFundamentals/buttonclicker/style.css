@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+/* Header styles */
+
+.header{
+    width: 933px;
+    height: 100px;
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: blueviolet; */
+    background-color: #c1c1c1;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#dojonary{
+    margin: 1.6rem;
+}
+
+.search_bar{
+    width: 25rem;
+}
+
+.loginbtn{
+    width: 4.5rem;
+    background-color: blue;
+    color: white;
+    margin: 1.6rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+/* body stuff */
+
+.container{
+    width: 950px;
+    height: 600px;
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: crimson; */
+    margin: 0 auto;
+}
+
+.left-col{
+    width: 70%;
+    height: 100%;
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: deeppink; */
+    flex-wrap: wrap;
+}
+
+.right-col{
+    width: 30%;
+    height: 100%;
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: blue; */
+    justify-content: flex-end;
+}
+
+.ninja-1, .ninja-2{
+    width: 100%;
+    height: 45%;
+    border-style: solid;
+    border-width: 2px;
+    margin: 10px;
+}
+
+.ninja-1{
+    border-color: black;
+}
+
+.ninja-2{
+    border-color: black;
+}
+
+.dojonary{
+    width: 100%;
+    height: 34%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 10px;
+}
+
+.nin-head1, .nin-head2{
+    width: 30%;
+    height: 90%;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black; */
+    margin: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nin-def1, .nin-def2{
+    width: 70%;
+    height: 90%;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black; */
+    margin: 10px;
+    align-items: center;
+}
+
+.likesbtn{
+    width: 4.5rem;
+    background-color: orange;
+    color: black;
+    margin: 1.6rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: -5px;
+}
+
+.noun{
+    padding-left: 54px;
+    margin-right: 61px;
+}
+
+.a-prac{
+    margin: 57px;
+}
+
+.dojonary-is{
+    margin: 20px;
+}
+
+.add-def{
+    width: 11.5rem;
+    background-color: #93c47d;
+    color: black;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}

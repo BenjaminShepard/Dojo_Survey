@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellowbelt Exam</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- top nav bar content -->
+    <header>
+        <div class="webname flex">
+            <img src="heart-light.png" class="heart-img" alt="heartlogo">
+            <h1 class="bigwords">Benjamins Pet Shelter</h1>
+            <div class="flex">
+                <ul>
+                    <li>Find a Pet</li>
+                    <li>About</li>
+                </ul>
+                    <button class="donatebtn" onclick="hide(this)">Donate</button>
+            </div>
+        </div>
+        <div class="options flex">
+            <div class="contain flex">
+                <div>
+                    <p class="im">I<span>&#39;</span>m looking for...</p>
+                    <div class="flex">
+                        <img src="paw-light.png" alt="paw logo" class="pawlogo">
+                        <select name="pets" id="pets-selection" onchange="selectDog(this)">
+                            <option value="Any Pet">Any Pet</option>
+                            <option value="Dog">Dog</option>
+                            <option value="Cat">Cat</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <p class="in-a">In or near...</p>
+                    <div class="flex">
+                        <img src="pin-light.png" alt="pin logo" class="pinlogo">
+                        <input type="text" name="cityorzip" placeholder="City or Zip Code">
+                    </div>
+                </div>
+                    <button class="thisbtn">Find your new best friend!</button>
+            </div>
+        </div>
+    </header>
+    <!-- body content -->
+    <div class="container">
+        <!-- content 1(pepper) -->
+        <div class="content1 flex">
+            <div class="c1sub1">
+                <img src="jaxx.JPG" class="puppytest" alt="pepper">
+            </div>
+            <div class="c1sub2 ">
+                <h1 class="pepper">Jaxx</h1>
+                <h5 class="pepperDescrip">Pepper is a slightl shy grey tabby, but she really loves showing her human affection.</h5>
+            </div>
+            <div class="c1sub3">
+                <p class="pet-pets" id="pets">0 pets</p>
+                <button class="thisbtn2" onclick="pepperadd1()">Pet Pepper</button>
+            </div>
+        </div>
+        <!-- content 2(bruce) -->
+        <div class="content2 flex">
+            <div class="c2sub1">
+                <img src="nokie.JPG" class="puppytest" alt="bruce">
+            </div>
+            <div class="c2sub2">
+                <h1 class="pepper">Nokie</h1>
+                <h5 class="pepperDescrip">Bruce is a loyal companion. He loves long walks and cold weather</h5>
+            </div>
+            <div class="c2sub3">
+                <p class="pet-pets" id="pets2">0 pets</p>
+                <button class="thisbtn2" onclick="bruceadd1()">Pet Bruce</button>
+            </div>
+        </div>
+        <!-- content3(oscar) -->
+        <div class="content3 flex">
+            <div class="c3sub1">
+                <img src="oscar.jpg" class="puppytest" alt="oscar">
+            </div>
+            <div class="c3sub2">
+                <h1 class="pepper">Oscar</h1>
+                <h5 class="pepperDescrip">Oscar is bright, energetic, and friendly. He is looking for a good home.</h5>
+            </div>
+            <div class="c3sub3">
+                <p class="pet-pets" id="pets3">0 pets</p>
+                <button class="thisbtn2" onclick="oscaradd1()">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

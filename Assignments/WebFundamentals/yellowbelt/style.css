@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+
+*{
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+/* nav bar style */
+header{
+    background-color: #139193;
+    border-radius: 15px;
+}
+
+.bigwords{
+    color: white;
+}
+
+.webname{
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    font-size: larger;
+}
+
+.donatebtn{
+    height: 1.5rem;
+    margin-top: 25px;
+    margin-right: -23px;
+    border-radius: 15px;
+    border-color: #5d2c90;
+    color: #5d2c90;
+    box-shadow: 6px 5px 5px #5d2c90;
+}
+
+.options{
+    justify-content: center;
+    align-items: center;
+}
+
+/* body stylings */
+.contain{
+    width: 632px;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.im, .in-a{
+    color: white;
+}
+
+.im{
+    margin-bottom: 6px;
+}
+
+.in-a{
+    margin-bottom: 6px;
+}
+
+#pets-selection{
+    width: 4.5rem;
+    height: 1.5rem;
+    display: block;
+    margin-left: 16px;
+}
+
+.thisbtn{
+    height: 1.5rem;
+    margin-top: 36px;
+    margin-right: -20px;
+    color: white;
+    background-color: #5d2c90;
+    border-radius: 15px;
+    box-shadow: 6px 5px 5px black;
+}
+
+/* body style */
+
+.container{
+    width: 1328px;
+    height: 43rem;
+    margin: 0 auto;
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: rebeccapurple; */
+}
+
+.content1, .content2, .content3{
+    width: 43rem;
+    height: 11rem;
+    background-color: #bab9ba;
+    /* border-style: dashed; */
+    /* border-width: 2px; */
+    /* border-color: red; */
+    border-radius: 56px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.c1sub1, .c1sub2, .c1sub3{
+    justify-content: space-around;
+    align-content: center;
+}
+
+.puppytest{
+    width: 5.25rem;
+    height: 5.25rem;
+    margin: 2.5rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 25px;
+    box-shadow: 6px 5px 5px #5d2c90;
+}
+
+.pepper{
+    margin-top: 38px;
+}
+
+.thisbtn2{
+    width: 165px;
+    height: 1.5rem;
+    margin-top: -17px;
+    margin-right: 5px;
+    color: white;
+    background-color: #5d2c90;
+    border-radius: 15px;
+    box-shadow: 6px 5px 5px black;
+}
+
+.pepperDescrip{
+    margin-top: -9px;
+    font-size: smaller;
+}
+
+.pet-pets{
+    margin-top: 58px;
+    margin-left: 76px;
+}
+
+.heart-img{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 9px;
+}
+
+.pawlogo, .pinlogo{
+    width: 25px;
+    height: 25px;
+}
+
