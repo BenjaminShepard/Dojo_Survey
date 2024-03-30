@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojos and Ninjas</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/sketchy.css') }}">
+</head>
+
+<body>
+            <div class="card mt-3" style="max-width: 25rem;">
+                <div class="card-body">
+                    <h1>New Dojo</h1>
+                    <form action="/createdojo" method="post">
+                        <label for="name" class="form-label">Name:</label>
+                        <input 
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="form-control">
+                            
+                        <input 
+                            type="submit" 
+                            value="Add Dojo"
+                            class="btn btn-primary form-control"
+                            />
+                    </form>
+                </div>
+            </div>
+            <div class="card mt-3" style="max-width: 30rem;">
+                <div class="card-body">
+                    <h1>All Dojos</h1>
+                    {% for dojo in dojos %}
+                    <a href="/dojoshow/{{ dojo.id }}">
+                        {{ dojo.name }}
+                        <input type="hidden" name="id" value="{{ dojo.id }}">
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+</body>
+
+</html>
