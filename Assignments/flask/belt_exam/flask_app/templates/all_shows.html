@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Shows</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/superhero.css') }}">
+</head>
+<body>
+    <div class="container mt-3" style="width: 50rem;">
+        <h1>Welcome to your NEXTFIX, {{ user.first_name }}</h1>
+        <div class="card">
+            <table class="table table-hover table-dark table-striped mt-3">
+                <thead>
+                    <tr class="table-primary">
+                        <th scope="col">Title</th>
+                        <th scope="col">Network</th>
+                        <th scope="col">Release Date</th>
+                        <th scope="col">Posted By</th>
+                        <th scope="col">More</th>
+                    </tr>
+                </thead>
+                {% for show in shows %}
+                    <tr class="table-secondary">
+                        <td>{{ show.title }}</td>
+                        <td>{{ show.network }}</td>
+                        <td>{{ show.release_date }}</td>
+                        <td>{{ show.user.first_name }}</td>
+                        <td>
+                            <a href="/shows/{{ show.id }}" class="btn btn-info">Details</a>
+                            {% if show.user.id == user.id %}
+                                <a href="/shows/{{ show.id }}/edit" class="btn btn-warning">Edit</a>
+                                <form action="/shows/{{ show.id }}/delete" class="link-danger" method="post">
+                                    <button type="submit" class="btn btn-danger mt-2">Delete</button>
+                                </form>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="text-end">
+            <a href="/shows/new" class="btn btn-info mt-3">+Recommend</a>
+            <a href="/users/logout" class="btn btn-danger mt-3">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
